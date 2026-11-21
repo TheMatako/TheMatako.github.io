@@ -21,7 +21,7 @@ state = "planned"
 text = "System hardening aligned with ANSSI-BP-028 recommendations and CIS Benchmarks."
 [[extra.status]]
 state = "planned"
-text = "Curations of core purple teaming tooling in packages.x86_64 and in-houste technical documentation"
+text = "Curations of core purple teaming tooling in packages.x86_64 and in-house technical documentation"
 +++
 
 ## Why it exists
@@ -31,9 +31,9 @@ IPLS is an engineering project at ISIMA designed to build a minimal, reproducibl
 ## Four pillars
 
 - **Zero-trust hardening:** Minimal base installation with a reduced attack surface, a hardened kernel, and restrictive default network filtering.
-- **Tailored for cyber labs:** Tool selection and default configs are optimized specifically for hands-on student lab environments. 
+- **Tailored for cyber labs:** Tool selection and default configs are optimized specifically for hands-on student lab environments.
 - **Automated DevSecOps pipeline:** Reproducible ISO generation driven entirely by automated CI/CD builds and releases.
-- **IaC, DaC, and CaC:** Build around three core practices: Infrastructure-as-Code for environment reproducibility, Doc-as-Code for transparent technical specifications, and Compliance-as-Code to programmatically validate hardening baselines against established standards.
+- **IaC, DaC, and CaC:** Built around three core practices: Infrastructure-as-Code for environment reproducibility, Doc-as-Code for transparent technical specifications, and Compliance-as-Code to programmatically validate hardening baselines against established standards.
 
 ## Network constraint & lab architecture
 
@@ -44,4 +44,3 @@ The local testing environment runs an Arch VM on a Proxmox VE hypervisor. Becaus
 The immediate milestone is establishing a security baseline audit on a bare Arch ISO before applying any hardening. This will provide quantitative point of comparison for every subsequent kernel parameter, sysctl tweak, and access rule.
 
 Built with [Raphaël Verginelli](https://github.com/RaphaelVerginelli).
-
