@@ -5,7 +5,7 @@ description = "French cybersecurity engineering student."
 
 I am a cybersecurity engineering student at ISIMA (Clermont-Ferrand, France), specialising in networks, systems, and security.
 
-My focus lies at the intersection of DevSecOps, cloud infrastructure, and systems engineering. I believe security must be an architectural requirement from day one, not a patch applied before deployment. 
+My focus lies at the intersection of DevSecOps, cloud infrastructure, and systems engineering. I believe security must be an architectural requirement from day one, not a patch applied before deployment.
 
 While my academic curriculum relies on C and C++, I actively build with Rust for its compile-time guarantees and memory safety.
 
